@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         background-color:rgb(206, 240, 255);
+      }
+      #myH1{
+        color:black;
+        text-align: center;
+         font-size: 60px;
+
+      }
+      #btn{
+        text-align: center;
+      }
+      #dec,#res,#inc{
+         padding: 10px 20px;
+              color:whitesmoke;
+              background-color: rgb(104, 104, 226);
+              border-radius: 50px;
+      }
+      #dec:hover,#res:hover,#inc:hover{
+        color:rgb(248, 212, 212);
+        background-color: blue;
+        cursor:pointer;
+      }
+    </style>
+</head>
+<body>
+  <h2 style="color:blue; text-align:center;">Welcome to our counter</h2>
+    <h1 id="myH1">0</h1>
+    <div id="btn">
+
+    <button id="dec">Decrement</button>
+    <button id="res">Reset</button>
+    <button id="inc">Increment</button>
+</div>
+<script src="counter.js"></script>
+    
+</body>
+</html>
